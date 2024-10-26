@@ -1,1 +1,69 @@
-/* hello */
+html {
+  font-family: monospace;
+  font-size: 14px;
+}
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: #555;
+}
+
+nav a {
+  text-decoration: inherit;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 3em auto;
+  display: flex;
+  justify-content: center;
+  font-size: 1.2em;
+}
+
+nav ul li {
+  padding: 0;
+  margin: 0 0.8em;
+  display: inline-flex;
+  font-weight: 600;
+}
+
+nav ul li.active {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-skip: 1px;
+}
+
+main {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 1em;
+  margin-bottom: 0.5em;
+  line-height: 1.5;
+  font-size: 1.15em;
+}
+
+main h1 {
+  font-size: 1.2em;
+}
+
+main ul {
+  padding-left: 2em;
+}
+
+main form div {
+  margin-bottom: 1em;
+}
+
+main form input,textarea {
+  font-size: 1em;
+  width: 100%;
+}
+
+main form input {
+  font-family: monospace;
+  font-size: 1.2em;
+  font-weight: 600;
+}
